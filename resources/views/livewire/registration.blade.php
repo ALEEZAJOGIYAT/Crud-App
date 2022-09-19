@@ -16,13 +16,13 @@
                 <input type="text" wire:model='school' class="form-control" id="exampleInputPassword1" placeholder="Enter School">
             </div>
 
-            <div class="form-group col-md4">
+
+            <div class="addBtn col-md4" style="padding-top: 29px;">
                 <button wire:click.prevent='add' class="btn btn-primary">
                     Add
                 </button>
 
             </div>
-
         </div>
     </form>
 

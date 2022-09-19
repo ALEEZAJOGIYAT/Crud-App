@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('inputs');
 });
 Route::view('registration', 'livewire.registration');
 Route::get('reg', [StudentController::class, 'index']);
